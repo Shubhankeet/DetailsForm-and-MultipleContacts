@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "details-form-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/detailsForm/DetailsFormWebpart.js",
+          "manifest": "./src/webparts/detailsForm/DetailsFormWebpart.manifest.json"
+        }
+      ]
+    },
+    "multiple-contacts-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/multipleContacts/MultipleContactsWebpart.js",
+          "manifest": "./src/webparts/multipleContacts/MultipleContactsWebpart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "DetailsFormWebpartStrings": "lib/webparts/detailsForm/loc/{locale}.js",
+    "MultipleContactsWebpartStrings": "lib/webparts/multipleContacts/loc/{locale}.js"
+  }
+}

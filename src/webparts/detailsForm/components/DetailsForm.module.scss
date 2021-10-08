@@ -1,0 +1,57 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.labelStyle {
+  padding: 0px;
+  font-size: 14px;
+  color: #000;
+  position: relative;
+  bottom: -4px;
+  word-wrap: break-word;
+}
+
+.stackBorder {
+  width: '50%';
+  border: 1px solid #D3D3D3;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  color: #000;
+  height: auto;
+  padding-left: 15px;
+}
+
+.headerStyle {
+  padding: 0px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+  position: relative;
+  bottom: -4px;
+}
+
+.aligned_form {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: flex-start;
+  height: 75px;
+}
+
+label {
+  font-size: 14px;
+  color: #000;
+  float: left;
+  margin: auto 25px auto 0px;
+  width: 125px;
+}
+
+.dropdown {
+  width: 400px;
+}
+
+.textField {
+  width: 400px;
+}
+
+.questionaireTextfield {
+  width: 1000px;
+  margin-bottom: 10px;
+}

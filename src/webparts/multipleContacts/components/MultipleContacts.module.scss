@@ -1,0 +1,58 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 350px;
+  margin: auto;
+  text-align: center;
+}
+
+.smallText {
+  box-sizing: border-box;
+  width: 85px;
+  height: 25px;
+  color: #fff;
+  background-color: #a020f0;
+  font-size: 12px;
+  float: left;
+  padding: 5px;
+}
+
+.smallIcon {
+  box-sizing: border-box;
+  width: 85px;
+  height: 25px;
+  color: grey;
+  font-size: 20px;
+  float: right;
+}
+
+.header {
+  color: #000;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.about {
+  color: #000;
+  font-size: 11px;
+  text-align: center;
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+
+.title {
+  color: grey;
+  font-size: 12px;
+  margin-top: -15px;
+  text-align: center;
+}
+
+.viewProfile {
+  color: #A020F0;
+  font-size: 12px;
+  padding-bottom: 20px;
+  text-align: center;
+  cursor: pointer;
+}
