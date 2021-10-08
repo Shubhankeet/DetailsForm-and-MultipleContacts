@@ -1,7 +1,7 @@
 # grant-thornton-assignment-shubhankeet-senapati
 
 ## Summary
-
+This assignment contains DetailsForm and MultipleContacts in React.
 Short summary on functionality and used technologies.
 
 [picture of the solution in action, if possible]
